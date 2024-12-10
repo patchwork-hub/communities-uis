@@ -1,5 +1,5 @@
-# Patchwork Community CLI
-CLI for adding commmunity features to Mastodon.
+# Patchwork Communities CLI
+CLI for adding commmunities features to Mastodon.
 
 ```bash
 npm install

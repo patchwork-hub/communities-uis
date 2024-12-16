@@ -10,5 +10,5 @@ npm link
 
 ## Getting started
 ```bash
-npx patchwork-communities-cli init
+npx @newsmast/patchwork-communities-cli init
 ```

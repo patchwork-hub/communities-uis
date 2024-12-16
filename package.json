@@ -1,5 +1,5 @@
 {
-  "name": "patchwork-communities-cli",
+  "name": "@newsmast/patchwork-communities-cli",
   "version": "1.0.0",
   "type": "module",
   "bin": {
@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc && vite build",
     "postbuild": "chmod +x dist/index.js",
+    "semantic-release": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,10 +22,18 @@
   "devDependencies": {
     "@types/chalk": "^0.4.31",
     "@types/node": "^22.10.1",
+    "semantic-release": "^24.2.0",
     "typescript": "^5.7.2",
     "vite": "^6.0.3"
   },
   "engines": {
     "node": ">=23.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }

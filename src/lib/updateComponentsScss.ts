@@ -98,4 +98,5 @@ export const updateComponentsScss = () => {
   replaceContent(enclosedTag, `${routeTag}\n${enclosedTag}`, targetFilePath);
 
   console.log(chalk.green("Added scss styles."));
+  console.log(chalk.green("/n"));
 };

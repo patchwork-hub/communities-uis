@@ -29,7 +29,7 @@ export const updateWrappedRoute = () => {
 
   // Add Route
   const enclosedTag = `<Route component={BundleColumnError} />`;
-  // const routeTag = `<WrappedRoute path='/communities' component={CommunitiesTimeline} content={children} />`
+  
   const routeTag = `
     <WrappedRoute path='/communities/local' exact component={CommunitiesTimeline} content={children} />
     <WrappedRoute path='/communities/all' exact component={CommunitiesTimeline} content={children} />`;

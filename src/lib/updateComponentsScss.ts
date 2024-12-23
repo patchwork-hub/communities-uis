@@ -97,5 +97,5 @@ export const updateComponentsScss = () => {
   const routeTag = `.community__section-headline,`;
   replaceContent(enclosedTag, `${routeTag}\n${enclosedTag}`, targetFilePath);
 
-  console.log(chalk.green("Added async component."));
+  console.log(chalk.green("Added scss styles."));
 };

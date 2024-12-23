@@ -68,7 +68,7 @@ import GroupsIcon from '@/material-icons/400-24px/groups.svg?react';
 </>`;
   replaceContent(exploreLink, exploreAndCommunity, targetFilePath);
 
-  // Add communit menu link
+  // Add community menu link
   const conversationLink = `<ColumnLink transparent to='/conversations' icon='at' iconComponent={AlternateEmailIcon} text={intl.formatMessage(messages.direct)} />`;
   const communityLink = `<ColumnLink transparent to='/communities' icon='groups' iconComponent={GroupsIcon} text={intl.formatMessage(messages.communitites)} />`;
   replaceContent(

@@ -1,4 +1,3 @@
-///@ts-nocheck
 import { useRef } from "react";
 
 import { FormattedMessage } from "react-intl";

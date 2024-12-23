@@ -1,4 +1,3 @@
-///@ts-nocheck
 import ChevronRightIcon from "@/material-icons/400-24px/chevron_right-white.svg?react";
 const all_communities = [
   {

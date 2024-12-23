@@ -7,12 +7,7 @@ export function replaceContent(target: string, content: string, targetFilePath: 
         throw new Error(`${target} for insertion not found in the file.`);
     }
 
-    if (!finalContent.includes(content)) {
-        const finalUpdatedContent = finalContent.replace(
-            target,
-            content
-        );
+    const finalUpdatedContent = finalContent.split(target).join(content);
 
-        writeFileSync(targetFilePath, finalUpdatedContent, 'utf8');
-    }
+    writeFileSync(targetFilePath, finalUpdatedContent, 'utf8');
 }

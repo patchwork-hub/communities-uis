@@ -47,34 +47,35 @@ export const addFeatureFiles = () => {
   const templateFiles = [
     {
       src: "features/communities/index.tsx",
-      dest: path.join(mastodonJsDir, "features/communities/index.tsx"),
+      dest: path.join(mastodonJsDir, "features/communities/index.tsx")
     },
     {
       src: "features/communities/all_communities.tsx",
-      dest: path.join(
-        mastodonJsDir,
-        "features/communities/all_communities.tsx"
-      ),
+      dest: path.join(mastodonJsDir, "features/communities/all_communities.tsx")
     },
     {
       src: "features/communities/local_communities.tsx",
       dest: path.join(
         mastodonJsDir,
         "features/communities/local_communities.tsx"
-      ),
+      )
     },
     {
       src: "material-icons/400-24px/community-fill.svg",
-      dest: path.join(materialDir, "400-24px/community-fill.svg"),
+      dest: path.join(materialDir, "400-24px/community-fill.svg")
     },
     {
       src: "material-icons/400-24px/community.svg",
-      dest: path.join(materialDir, "400-24px/community.svg"),
+      dest: path.join(materialDir, "400-24px/community.svg")
     },
     {
       src: "material-icons/400-24px/chevron_right-white.svg",
-      dest: path.join(materialDir, "400-24px/chevron_right-white.svg"),
+      dest: path.join(materialDir, "400-24px/chevron_right-white.svg")
     },
+    {
+      src: "material-icons/400-24px/chevron_right-gray.svg",
+      dest: path.join(materialDir, "400-24px/chevron_right-gray.svg")
+    }
   ];
 
   // Copy files from templates directory to the target project's structure

@@ -12,8 +12,8 @@ export const addFeatureFiles = () => {
   const mastodonJsDir = path.join(projectRoot, "app/javascript/mastodon");
   const materialDir = path.join(projectRoot, "app/javascript/material-icons");
 
-  // Template directory inside this script's folder
-  const templateBaseDir = path.join(__dirname, "../public/templates");
+  // Templates directory now resides inside the dist folder
+  const templateBaseDir = path.join(__dirname, "templates");
 
   if (!existsSync(mastodonJsDir)) {
     console.error(

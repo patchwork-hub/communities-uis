@@ -1,5 +1,5 @@
 # Patchwork Communities CLI
-CLI for adding communities features to Mastodon.
+NPM CLI for adding communities features to Mastodon.
 
 ## Getting started
 To add community features to your Mastodon project, you can run the following command under the root of your Mastodon project:

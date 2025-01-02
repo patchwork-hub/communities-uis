@@ -2,6 +2,11 @@
   "name": "@newsmast/patchwork-communities-cli",
   "version": "1.0.0",
   "type": "module",
+  "keywords": [
+    "cli",
+    "patchwork",
+    "communities"
+  ],
   "bin": {
     "patchwork-communities-cli": "./dist/index.js"
   },
